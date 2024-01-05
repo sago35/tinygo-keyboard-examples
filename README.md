@@ -1,6 +1,6 @@
 # tinygo-keyboard-examples
 
-This repository is an example of a project using sago35/tinygo-keyboard.
+This repository is an example of a project using [sago35/tinygo-keyboard](https://github.com/sago35/tinygo-keyboard).
 
 You can write to the Wio Terminal using the following command.
 
