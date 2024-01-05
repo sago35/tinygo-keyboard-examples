@@ -36,5 +36,6 @@ func main() {
 		},
 	})
 
+	loadKeyboardDef()
 	d.Loop(context.Background())
 }

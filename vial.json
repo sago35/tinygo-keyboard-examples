@@ -1,0 +1,11 @@
+{
+    "name": "tinygo-wioterminal",
+    "vendorId": "0x2886",
+    "productId": "0x802D",
+    "matrix": {"rows": 1, "cols": 3},
+    "layouts": {
+        "keymap": [
+            ["0,2","0,1","0,0"]
+        ]
+    }
+}
