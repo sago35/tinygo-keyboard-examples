@@ -22,3 +22,15 @@ $ cd ./keyboard
 
 $ tinygo flash --target wioterminal --size short .
 ```
+
+### Update def.go
+
+Use `gen-def`.
+
+```
+# install gen-def
+$ go install github.com/sago35/tinygo-keyboard/cmd/gen-def@latest
+
+# generage def.go from vial.json
+$ gen-def vial.json
+```
