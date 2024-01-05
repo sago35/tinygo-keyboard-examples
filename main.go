@@ -23,9 +23,16 @@ func main() {
 
 	d.AddGpioKeyboard(gpioPins, [][]keyboard.Keycode{
 		{
+			// layer 0
 			jp.KeyA,
 			jp.KeyB,
-			jp.KeyC,
+			jp.KeyMod1,
+		},
+		{
+			// layer 1
+			jp.Key1,
+			jp.KeyBackspace,
+			jp.KeyMod1,
 		},
 	})
 
